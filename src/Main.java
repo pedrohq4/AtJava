@@ -81,11 +81,11 @@ public class Main {
 
 
 
-        /*Exercicio_11 exercicio11 = new Exercicio_11();
-        exercicio11.SimuladorLoteria();*/
+        Exercicio_11 exercicio11 = new Exercicio_11();
+        exercicio11.SimuladorLoteria();
 
 
-        Exercicio_12 exercicio12 = new Exercicio_12();
-        exercicio12.trocaDeMensagens();
+        /*Exercicio_12 exercicio12 = new Exercicio_12();
+        exercicio12.trocaDeMensagens();*/
     }
 }

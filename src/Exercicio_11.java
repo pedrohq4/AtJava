@@ -14,17 +14,17 @@ public class Exercicio_11 {
         }
 
         System.out.println("Digite 6 numeros de 1 a 60, ex(11,22,33,44,55,66)");
-        String numerosStr = scan.nextLine();
+        String numeroUsuario = scan.nextLine();
 
-        String[] numeros = numerosStr.split(",");
+        String[] numerosUsuario = numeroUsuario.split(",");
 
         int acertos = 0;
 
-        for(var num : numeros){
-            int numeroUsuario = Integer.parseInt(num.trim());
+        for(var num : numerosUsuario){
+            int numero = Integer.parseInt(num);
 
             for (int numeroSorteado : numerosAle) {
-                if (numeroUsuario == numeroSorteado) {
+                if (numero == numeroSorteado) {
                     acertos++;
                     break;
                 }
